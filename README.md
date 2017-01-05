@@ -29,7 +29,7 @@ Install Newman globaly: npm install -g newman
 ```
 Open ```cmd``` and move to the folder where you have saved json files. Run automated tests using command :
 ```
-newman -c GoogleGeocoding.postman_collection.json -e GoogleMapTest.postman_environment.json -f automatedTests
+newman -c GoogleGeocoding.postman_collection.json -e GeocodingTest.postman_environment.json -f automatedTests
 ```
 While tests are running, all information are provided in console in form :
 
